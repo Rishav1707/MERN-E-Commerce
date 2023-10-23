@@ -40,8 +40,8 @@ const productCheckout = async (req, res) => {
       payment_method_types: ["card"],
       billing_address_collection: "auto",
       mode: "payment",
-      success_url: "http://localhost:5050/success",
-      cancel_url: "http://localhost:5050/cancel",
+      success_url: "https://e-commerce-jtkx.onrender.com/success",
+      cancel_url: "https://e-commerce-jtkx.onrender.com/cancel",
     });
 
     // Redirect the user to the checkout page
